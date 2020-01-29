@@ -23,10 +23,10 @@
  </OUTPUT_FILES>
  <LABELS>
   <init><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>15</LINE></init>
-  <endlos><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>22</LINE></endlos>
-  <aussen1><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>25</LINE></aussen1>
-  <innen1><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>27</LINE></innen1>
-  <aussen2><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>37</LINE></aussen2>
-  <innen2><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>39</LINE></innen2>
+  <endlos><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>24</LINE></endlos>
+  <aussen1><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>27</LINE></aussen1>
+  <innen1><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>29</LINE></innen1>
+  <aussen2><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>39</LINE></aussen2>
+  <innen2><FILE>C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm</FILE><LINE>41</LINE></innen2>
  </LABELS>
 </ASSEMBLER_INFO>

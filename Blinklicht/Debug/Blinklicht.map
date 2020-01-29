@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm Wed Jan 29 11:06:33 2020
+AVRASM ver. 2.2.7  C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm Wed Jan 29 14:35:05 2020
 
 
 EQU  SIGNATURE_000 0000001e
@@ -609,8 +609,8 @@ DEF  an           r17
 DEF  aussen       r18
 DEF  innen        r19
 CSEG init         00000000
-CSEG endlos       00000004
-CSEG aussen1      00000005
-CSEG innen1       00000006
-CSEG aussen2      0000000c
-CSEG innen2       0000000d
+CSEG endlos       00000005
+CSEG aussen1      00000006
+CSEG innen1       00000007
+CSEG aussen2      0000000d
+CSEG innen2       0000000e
