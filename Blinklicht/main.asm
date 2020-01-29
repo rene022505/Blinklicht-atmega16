@@ -19,9 +19,11 @@ init:
 	out PORTB, an
 	out DDRB, aus
 
+	out DDRA, an
+
 endlos:
 	// Warte 200ms
-	ldi aussen, 0xFF
+	in aussen, PINA
 	aussen1:
 		ldi innen, 0xFF
 		innen1:
@@ -33,7 +35,7 @@ endlos:
 	out PORTB, aus
 
 	// Warte 200ms
-	ldi aussen, 0xFF
+	in aussen, PINA
 	aussen2:
 		ldi innen, 0xFF
 		innen2:
