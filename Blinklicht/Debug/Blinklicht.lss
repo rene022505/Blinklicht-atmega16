@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm Wed Jan 29 14:35:05 2020
+AVRASM ver. 2.2.7  C:\Users\rene\Desktop\Schule J1\Atmel\Blinklicht\Blinklicht\Blinklicht\main.asm Wed Feb 05 10:00:51 2020
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m16def.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m16def.inc'
@@ -894,7 +894,7 @@ AVRASM ver. 2.2.7  C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht
                                  
                                  endlos:
                                  	// Warte 200ms
-000005 ef2f                      	ldi aussen, 0xFF
+000005 b329                      	in aussen, PINA
                                  	aussen1:
 000006 ef3f                      		ldi innen, 0xFF
                                  		innen1:
@@ -906,7 +906,7 @@ AVRASM ver. 2.2.7  C:\Users\rene\Documents\Schule J1\Atmel\Blinklicht\Blinklicht
 00000b bb08                      	out PORTB, aus
                                  
                                  	// Warte 200ms
-00000c ef2f                      	ldi aussen, 0xFF
+00000c b329                      	in aussen, PINA
                                  	aussen2:
 00000d ef3f                      		ldi innen, 0xFF
                                  		innen2:
@@ -950,8 +950,8 @@ brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   0 cbr   :   0
 clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
 cpi   :   0 cpse  :   0 dec   :   4 eor   :   0 fmul  :   0 fmuls :   0 
-fmulsu:   0 icall :   0 ijmp  :   0 in    :   0 inc   :   0 jmp   :   1 
-ld    :   0 ldd   :   0 ldi   :   6 lds   :   0 lpm   :   0 lsl   :   0 
+fmulsu:   0 icall :   0 ijmp  :   0 in    :   2 inc   :   0 jmp   :   1 
+ld    :   0 ldd   :   0 ldi   :   4 lds   :   0 lpm   :   0 lsl   :   0 
 lsr   :   0 mov   :   0 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
 neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :   5 pop   :   0 
 push  :   0 rcall :   0 ret   :   0 reti  :   0 rjmp  :   0 rol   :   0 
@@ -960,7 +960,7 @@ sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0
 sei   :   0 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
 sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   0 
 sub   :   0 subi  :   0 swap  :   0 tst   :   0 wdr   :   0 
-Instructions used: 5 out of 113 (4.4%)
+Instructions used: 6 out of 113 (5.3%)
 
 "ATmega16" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
